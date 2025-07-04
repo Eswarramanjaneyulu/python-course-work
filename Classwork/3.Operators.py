@@ -50,11 +50,10 @@ print("venky" not in a)
 
 #Identity Operators
 a = [1,2,3]
-b=[1,2,3]
-print(a is b)  #false
-a = c
-print(a is c)   #true
-
+b = [1,2,3] 
+c = a  
+print(a is c)
+print(a is b)
 print(id(a))
 print(id(b))
 print(id(c))
