@@ -136,3 +136,9 @@ print(a)
 a.reverse()
 print(a)
 
+a=["eswar","rama","sai"]
+a.append("mani")
+print(a)
+del a[2]
+a.pop(0)
+print(a)
