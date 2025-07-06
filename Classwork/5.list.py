@@ -136,10 +136,3 @@ print(a)
 a.reverse()
 print(a)
 
-#slicing
-a="pythonprogramming"
-print(a[6:])
-print(a[:6])
-print(a[6:12])
-print(a[-5:])
-print(a[:-5])

@@ -135,3 +135,11 @@ a="Dhoni"
 print(a.encode("utf-8"))
 a=b"Dhoni"
 print(a.decode("utf-8"))
+
+#slicing
+a="pythonprogramming"
+print(a[6:])
+print(a[:6])
+print(a[6:12])
+print(a[-5:])
+print(a[:-5])
