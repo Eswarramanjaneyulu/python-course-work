@@ -100,7 +100,7 @@ print(s3.issubset(s4))
 s1={1,2,3,4,5,6,7}
 s2={6,7,8,9,10}
 s3={7,8,9,18}
-s4={7,8,9,18}
+s4={7,8,18}
 print(s1.issuperset(s2))
 print(s3.issuperset(s4))
 
