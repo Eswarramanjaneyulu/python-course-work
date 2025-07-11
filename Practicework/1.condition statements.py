@@ -131,12 +131,20 @@ else:
      print("not equal")
      
 #17.Check if a number is prime (basic logic)
-a=int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
-if a%1=='a'and a%a==0 or a%0=='a':
-     print("it's a prime number")
+if num > 1:
+    if num == 2 or num == 3:
+        print("Prime number")
+    elif num % 2 == 0 or num % 3 == 0:
+        print("Not a prime number")
+    elif num % 5 == 0 and num != 5:
+        print("Not a prime number")
+    else:
+        print("Prime number")
 else:
-     print("it's not a prime number")
+    print("Not a prime number")
+
      
      
 #
