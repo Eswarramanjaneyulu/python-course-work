@@ -20,7 +20,7 @@ else:
      print("not divisable by 5")
      
 #divisable by 3and 7
-a=int(input("Esnter a number : "))
+a=int(input("Enter a number : "))
 if a%3==0 and a%7==0:
      print("Divisible by both 3 and 7")
 elif a%3==0 :
@@ -58,11 +58,11 @@ else:
      print("it's not a 3-digit number")
      
 #check if character is vowel
-char=input("Enter a character:")
-if len(char)==1 and char.lower() in "aeiou" :
-     print(char,"vowel")
+char=input("Enter a character: ").lower()
+if char=='a' or char=='e' or char =='i' or char =='o' or char =='u' :
+     print("its a vowel") 
 else:
-     print(char,"not vowel")
+     print("it's not vowel")
 #Check greatest of two numbers
      
     
@@ -85,3 +85,58 @@ elif b>a:
      print(a,"is smaller")
 else:
      print("equal number") 
+     
+#check if number is zero
+a=int(input("Enter a number: "))
+if a==0:
+     print("Number is zero")
+else:
+     print("it is a number" )
+     
+#check if number is multiple of 10
+a=int(input("Enter a number: "))
+if a%10==0:
+     print("Multiple of 10")
+else:
+     print("Not Multiple 10 ")
+     
+#Check if age is eligible to vote (18+)
+a=int(input("Enter your age: "))
+if a>=18:
+     print("Eligible to vote")
+else:
+     print("Not Eligible to vote")
+     
+#Check if number is between 1 and 100
+a= int(input("Enter a number: "))
+if a>1 and a<100:
+     print("In Range")
+else:
+     print("Not Range")
+     
+#15. Check if number is square of another
+a=int(input("Enter a number1: "))
+b=int(input("Enter a number2: "))
+if a == b **2:
+     print(a,"is square of ",b)
+else:
+     print(a,"is not square of ",b)
+
+#16. Check if two strings are equal
+a=input("Enter a name1: ")
+b=input("Enter a name2: ")
+if a==b:
+     print("strings are equal")
+else:
+     print("not equal")
+     
+#17.Check if a number is prime (basic logic)
+a=int(input("Enter a number: "))
+
+if a%1=='a'and a%a==0 or a%0=='a':
+     print("it's a prime number")
+else:
+     print("it's not a prime number")
+     
+     
+#

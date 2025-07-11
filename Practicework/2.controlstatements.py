@@ -24,3 +24,13 @@ while cur_attempt <= max_attempt:
     e=input("enter the email:")
     p=input("enter the password:")
     
+a=int(input("Enter a number: "))
+if a > 1 :
+     for i in range(2,a):
+          if a%i==0:
+            print("Not a prime number")
+            break
+          else:
+            print("it's a prime number")
+else:
+     print("not a prime number")
