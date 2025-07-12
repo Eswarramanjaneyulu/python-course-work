@@ -145,6 +145,23 @@ if num > 1:
 else:
     print("Not a prime number")
 
-     
-     
-#
+#18. Check if number is positive and even
+a=int(input("Enter a number: "))
+if a%2==0 and a>1:
+     print("Positive and even number") 
+else:
+     print("Not Positive and even number")
+
+#19. Check if character is uppercase
+a=input("Enter a Character: ")
+if a.isupper():
+     print("Uppercase letter")
+else:
+     print("not an uppercase letter")
+
+#20. Check if temperature is hot (>30°C)
+a=int(input("Enter a temperature: "))
+if a>30:
+     print("it's hot")
+else:
+     print("it's cool")
